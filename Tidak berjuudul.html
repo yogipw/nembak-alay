@@ -1,0 +1,72 @@
+<html>
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+    <title>Gombal² gitu dah</title>
+
+<script type="text/javascript">
+ot=1
+function f1()
+{
+    swal("Arigatouuu>//<", "Gombal gombal kontol alay. Gw bikin ini karena ada yg request ya kntl", "success")
+}
+function f()
+{
+    if(ot==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            ot=2
+        }
+    else if(ot==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=60
+            ot=3
+        }
+    else if(ot==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            ot=4
+        }
+else if(ot==4)
+        {
+            Bn.style.top=380
+            Bn.style.left=190
+            ot=1
+        }
+
+
+}
+</script>
+
+</head>
+<body>
+<div class="container">
+<div class="alert alert-secondary" role="alert">
+<center><h1>🤭<h1></center>
+<center><img src="https://i.ibb.co/wJv5Pgp/logolu.png" class="rounded-circle" alt="hehe" height="200"></center>
+<p>
+<center><h2 style="#">Ini Pertanyaan Nya?</h2></center>
+<div id="By" style="position:absolute; left:75px; top:370px; width:600px;
+height:210px;">
+<button type="button" class="btn btn-secondary btn-sm" onClick="f1()">IYA</button>
+</div>
+<div id="Bn" style="position:absolute; left:205px; top:370px; width:600px; height:210px;">
+<button type="button" class="btn btn-secondary btn-sm" onMouseOver="f()">TIDAK</button>
+</div>
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
